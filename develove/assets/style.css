@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: inherit;
+list-style: none;
+
+}
+.container {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 5px;
+    background: rgb(189, 255, 0);
+    background: linear-gradient(325deg, rgba(189, 255, 0, 1) 47%, rgba(41, 172, 8, 1) 47%);
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;
+    align-items: center;
+}
+.header__logo{
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 3px 3px 2px rgba(2, 2, 2, 0.27);
+}
+.header__logo span {
+    display: block;
+    line-height: 0.5;
+    color: #FD9C00;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    color: white;
+    font-size: 16   px;
+}
+.go__maraphon{
+    font-size: 20px;
+}
+.header__link{
+    font-style: normal;
+}
+.header__slogan{
+    color: white;
+    margin-top: 30px;
+}
+.header__slogan h1{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.header__slogan h1 span{
+    font-weight: bold;
+}
+.header__slogan h1 + p{}
+.header__btn{}
+.header__slogan span{}
+.header__slogan span + p{}
+
+
+
+
+
+
