@@ -1,11 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     color: inherit;
-list-style: none;
-
+    list-style: none;
 }
 .container {
     width: 1240px;
@@ -13,12 +12,13 @@ list-style: none;
 }
 
 .header {
-    padding: 5px;
     background: rgb(189, 255, 0);
     background: linear-gradient(325deg, rgba(189, 255, 0, 1) 47%, rgba(41, 172, 8, 1) 47%);
 }
 
 .header__nav {
+    padding: 20px;
+
     display: flex;
     justify-content: space-between;
     color: white;
@@ -26,8 +26,8 @@ list-style: none;
     font-style: italic;
     align-items: center;
 }
-.header__logo{
-    font-size: 24px;
+.header__logo {
+    font-size: 40px;
     text-align: center;
     font-weight: bold;
     text-shadow: 3px 3px 2px rgba(2, 2, 2, 0.27);
@@ -35,7 +35,7 @@ list-style: none;
 .header__logo span {
     display: block;
     line-height: 0.5;
-    color: #FD9C00;
+    color: #fd9c00;
 }
 
 .header__menu {
@@ -43,33 +43,171 @@ list-style: none;
     justify-content: space-between;
     width: 30%;
     color: white;
-    font-size: 16   px;
+    font-size: 25px;
 }
-.go__maraphon{
-    font-size: 20px;
+.go__maraphon {
+    font-size: 35px;
 }
-.header__link{
+.header__link {
     font-style: normal;
 }
-.header__slogan{
+.header__slogan {
     color: white;
     margin-top: 30px;
+    width: 50%;
 }
-.header__slogan h1{
-    font-size: 20px;
+.header__slogan h1 {
+    font-size: 35px;
     text-transform: uppercase;
     font-weight: normal;
+    margin-top: 30px;
 }
-.header__slogan h1 span{
+.header__slogan h1 span {
     font-weight: bold;
 }
-.header__slogan h1 + p{}
-.header__btn{}
-.header__slogan span{}
-.header__slogan span + p{}
-
-
-
-
-
-
+.header__slogan h1 + p {
+    font-size: 25px;
+    margin-top: 30px;
+}
+.header__btn {
+    border: none;
+    background-color: #f7fc00;
+    color: black;
+    margin-top: 40px;
+    border-radius: 20px;
+    height: 50px;
+    width: 50%;
+    font-size: 25px;
+}
+.header__slogan > span {
+    margin-left: 30px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.header__slogan span + a {
+    display: block;
+    margin-top: 20px;
+    font-size: 30px;
+}
+.baskay {
+    display: inline-block;
+    width: 23%;
+}
+.header__slogan + div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slogan__container {
+    display: flex;
+    padding: 20px;
+}
+.header__underline {
+    border: 1px solid white;
+}
+.header__footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+.header-footer__item {
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+.header-footer__item span {
+    font-weight: bold;
+    font-size: 50px;
+    display: block;
+}
+.buttons__line {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.product__button {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 35px;
+    display: flex;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.button__right-content {
+    border-right: 1px solid black;
+    text-align: center;
+    padding-right: 20px;
+}
+.button__left-content {
+    text-align: center;
+    padding-left: 20px;
+}
+.product__count {
+    font-size: 25px;
+}
+.poduct__price {
+    font-weight: bold;
+    font-size: 25px;
+}
+.prodcts-block {
+    margin-top: 40px;
+}
+.prodcts-block h2 {
+    font-size: 40px;
+}
+.products__line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.product {
+    flex: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.product__img {
+    border-radius: 20px;
+    width: 80%;
+    height: 200px;
+    object-fit: cover;
+}
+.product__description {
+    font-size: 20px;
+    display: block;
+    width: 350px;
+    text-align: center;
+    margin-top: 20px;
+}
+.products__block-basemant {
+    margin-top: 20px;
+}
+.products__block-basemant span {
+    font-size: 25px;
+}
+.products__block-basemant div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.how__mane-days {
+    flex: 0 0 80%;
+}
+.total-sum {
+    display: flex;
+    background-color: #29ac08;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+.total-sum > span {
+    padding: 10px;
+    font-weight: bold;
+}
+.total-sum span + span {
+    border-left: 1px solid white;
+}
